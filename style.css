@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', 'sans-serif';
+    width: 1260px;
+}
+.container{
+    width: 1100px;
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+}
+header{top: 0%; 
+    position: fixed;
+    width: 100%;
+    float: left;
+    height: 40px;
+    background: linear-gradient(
+        to right, white, black, gray);
+    text-align: right; 
+    right: 0px;
+    font-size: 30px;
+}
+.btn{
+    border: none;
+    background-color: rgb(75, 75, 255);
+    padding: 30px 32px;
+    border-radius: 100px;
+    font-size: 17px;
+}
+#welcome{
+    background-image: url(../лексус-зф-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 220px;
+    border: 5px solid black;
+}
+.welcome-inner{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    margin-top: 0px;
+    text-align: center;
+}
+#why-we{
+    background: linear-gradient(to right bottom,
+     white, gray);
+    border: 5px solid black;
+    border-bottom: none;
+    text-align: center;
+    font-size: 40px;
+    color: gray;
+    padding-bottom: 40px;
+}
+#they-auto{
+    background: rgb(138, 127, 127);
+    padding-bottom: 35px;
+    border: 5px solid black;
+}
+.they-auto-text{
+    display: flex;
+    justify-content: center;
+}
+.they-auto-text-2 p{font-size: 55px;
+    text-align: center;
+}
+.they-auto-text p{height: 120px;
+    border: 1px solid black;
+    color: dodgerblue;
+}
+.they-auto-text img{
+    height: 98px;
+}
+.kolokol-inner{
+    text-align: center;
+    font-size: 20px;
+}
+.sub-input input{border: none;
+    width: 70%;
+    padding: 12px 36px;
+    border: 1px solid black;
+    border-radius: 100px 0px 0px 100px;
+    -webkit-border-radius: 100px 0px 0px 100px;
+    -moz-border-radius: 100px 0px 0px 100px;
+    -ms-border-radius: 100px 0px 0px 100px;
+    -o-border-radius: 100px 0px 0px 100px;
+    font-size: 23px;
+}
+.sub-input span{
+    width: 30%;
+    border: 1px solid black;
+    padding: 12px 36px;
+    background: linear-gradient(to right bottom, white, gray);
+    border-radius: 0px 100px 100px 0px;
+    -webkit-border-radius: 0px 100px 100px 0px;
+    -moz-border-radius: 0px 100px 100px 0px;
+    -ms-border-radius: 0px 100px 100px 0px;
+    -o-border-radius: 0px 100px 100px 0px;
+}
+.footer{
+    background: #e0e0e0;
+}
+.footer-content{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer-item{
+    color: #99999999;
+    font-size: 14px;
+    padding: 15px 0;
+}
+.footer-list{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-l{
+    padding: 20px 0;
+    text-align: center;
+    border-top:1px solid #99999999;
+}
+@media (max-width: 690px){
+    .btn{
+        margin-top: 70px;
+        padding: 20px 24px;
+    }
+    header{
+        display: none;
+    }
+    .container{
+        width: 600px;
+        margin: 0px auto;
+    }
+
+    #welcome{
+        background-size: 60%;
+        background-position: center;
+    }
+    .welcome-text h1{
+        margin: 0px;
+        font-size: 60px;
+        background-color: black;
+        background-size: cover;
+    }
+    #why-we{
+        font-size: 25px;
+    }
+    .they-auto-text p{height: 70px;
+        font-size: 12px;
+        border: 1px solid black;
+        color: dodgerblue;}
+    .they-auto-text img{
+        height: 50px;
+    }
+    .sub-input span{
+        border-radius: 100px;
+    }
+    .sub-input input{
+        border-radius: 100px;
+    }
+    .footer-l{
+        font-size: 10px;
+    }
+}
